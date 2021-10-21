@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+}
+h1 {
+  margin: 0px;
+}
+div {
+  width: 200px;
+  height: 250px;
+}
+#one {
+  background-color: aquamarine;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: black;
+  box-sizing: border-box;
+}
+#two {
+  background-color: bisque;
+  border: black 5px solid;
+  box-sizing: border-box;
+  border-left-style: dotted;
+  border-right-color: blue;
+  border-right-style: dotted;
+  border-bottom-style: double;
+  border-bottom-color: chartreuse;
+  border-top-color: chocolate;
+  border-top-style: double;
+}
+#three {
+  background-color: cadetblue;
+  border: yellow 5px double;
+  box-sizing: border-box;
+  border-radius: 10px 100px/120px;
+}
+.card {
+  width: 210px;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 220px;
+}
+img {
+  width: 200px;
+  border-width: 5px;
+  border-color: rgb(236, 183, 191);
+  border-style: solid;
+  border-radius: 50%;
+}
+
+button {
+  padding: 30px;
+  border-radius: 50%;
+  color: Red;
+  background-color: white;
+}
